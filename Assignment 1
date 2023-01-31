@@ -1,0 +1,19 @@
+#Upper@Lower
+
+
+def txt(t):
+    d = 0
+    e = 0
+    for c in t:
+        if c.isupper():
+            d = d + 1
+        elif c.islower():
+            e = e + 3.25
+
+
+        else:
+            pass
+    print("No. of Upper case characters : ", d)
+    print("No. of Lower case Characters : ", e)
+txt(input("Enter the text:"))
+
